@@ -1,0 +1,41 @@
+{
+  "name": "mcp-coding",
+  "version": "1.0.0",
+  "description": "AI coding agent",
+  "type": "module",
+  "main": "main.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "start": "tsx main.ts",
+    "start:watch": "tsx watch main.ts",
+    "server": "tsx server.ts",
+    "server:watch": "tsx watch server.ts",
+    "inspector": "npx @modelcontextprotocol/inspector"
+  },
+  "author": "Claudio De Meo",
+  "license": "ISC",
+  "dependencies": {
+    "@cfworker/json-schema": "^4.1.1",
+    "@modelcontextprotocol/client": "^2.0.0-alpha.2",
+    "@modelcontextprotocol/express": "^2.0.0-alpha.2",
+    "@modelcontextprotocol/node": "^2.0.0-alpha.2",
+    "@modelcontextprotocol/server": "^2.0.0-alpha.2",
+    "chalk": "^5.6.2",
+    "express": "^5.2.1",
+    "inquirer": "^13.4.3",
+    "ollama": "^0.6.3"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/inspector": "^0.15.0",
+    "@types/express": "^5.0.6",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.7.0",
+    "jest": "^30.4.2",
+    "ts-jest": "^29.4.9",
+    "ts-node": "^10.9.2",
+    "tsc": "^2.0.4",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
+  }
+}
